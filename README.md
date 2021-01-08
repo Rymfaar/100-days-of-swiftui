@@ -10,10 +10,13 @@ Each day is around 1 hour long.
 
 ## Requirement
 
-I'm using a MacBook under macOS Catalina and Xcode v12.3.
+I'm using a MacBook under macOS BigSur and Xcode v12.3.
+
+> It should work on Catalina too.
 
 ## Days
 
-- [Day 1](https://www.hackingwithswift.com/100/swiftui/1) – variables, simple data types, and string interpolation
-- [Day 2](https://www.hackingwithswift.com/100/swiftui/2) – arrays, dictionaries, sets, and enums
-- [Day 3](https://www.hackingwithswift.com/100/swiftui/3) – operators and conditions
+- [Day 1](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day001) – variables, simple data types, and string interpolation [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/1)
+- [Day 2](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day002) – arrays, dictionaries, sets, and enums [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/2)
+- [Day 3](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day003) – operators and conditions [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/3)
+- [Day 4](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day004) – loops, loops, and more loops [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/4)
