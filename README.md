@@ -20,3 +20,4 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Day 2](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day002) – arrays, dictionaries, sets, and enums [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/2)
 - [Day 3](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day003) – operators and conditions [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/3)
 - [Day 4](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day004) – loops, loops, and more loops [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/4)
+- [Day 5](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day005) – functions, parameters, and errors [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/5)
