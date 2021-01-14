@@ -22,3 +22,6 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Day 4](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day004) – loops, loops, and more loops [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/4)
 - [Day 5](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day005) – functions, parameters, and errors [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/5)
 - [Day 6](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day006) – closures, part one [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/6)
+- [Day 7](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day006) – closures, part two [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/7)
+- [Day 8](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day008) – structs, properties, and methods [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/8)
+- [Day 9](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day008) – access control, static properties, and laziness [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/9)
