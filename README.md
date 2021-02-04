@@ -27,3 +27,4 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Day 9](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day008) – access control, static properties, and laziness [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/9)
 - [Day 10](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day010) – classes and inheritance [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/10)
 - [Day 11](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day011) – protocols and extensions [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/11)
+- [Day 12](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day012) – optionals, unwrapping, and typecasting [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/12)
