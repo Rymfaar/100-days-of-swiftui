@@ -29,3 +29,9 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Day 11](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day011) – protocols and extensions [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/11)
 - [Day 12](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day012) – optionals, unwrapping, and typecasting [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/12)
 - [Day 13](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day013) – Swift review, day one [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/13)
+- [Day 14](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day014) – Swift review, day two [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/14)
+- [Day 15](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day015) – Swift review, day three [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/15)
+
+## Projects
+
+- [WeSplit](https://github.com/Rymfire/100-days-of-swiftui/tree/master/WeSplit)
