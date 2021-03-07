@@ -22,14 +22,19 @@ struct ContentView: View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color("GradientBackground0"), Color("GradientBackground1")]), startPoint: .topLeading, endPoint: .bottomTrailing).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack (spacing: 32) {
-                Spacer()
                 VStack {
+                    Spacer()
+                    Text("Score: \(score)")
+                        .foregroundColor(self.phoneTheme == .dark ? Color.white : Color.black)
+                        .fontWeight(.bold)
+                    Spacer(minLength: 0.5)
                     Text("Tap the flag of")
                         .foregroundColor(self.phoneTheme == .dark ? Color.white : Color.black)
                     Text(self.countries[self.correctAnswer])
                         .foregroundColor(self.phoneTheme == .dark ? Color.white : Color.black)
                         .font(.largeTitle)
                         .fontWeight(.black)
+                    Spacer()
                 }
                 Spacer()
                 ForEach(0..<3) { flag in
@@ -48,6 +53,7 @@ struct ContentView: View {
                 }
                 Spacer()
                 Spacer()
+                Spacer()
             }
         }
     }
@@ -57,7 +63,7 @@ struct ContentView: View {
             self.scoreAlertTitle = "Dope!"
             self.score += 1
         } else {
-            self.scoreAlertTitle = "Nope!"
+            self.scoreAlertTitle = "Nope, that was \(self.countries[answer])!"
         }
         self.showingScore = true
     }
