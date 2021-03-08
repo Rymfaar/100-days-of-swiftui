@@ -31,6 +31,9 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Day 13](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day013) – Swift review, day one [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/13)
 - [Day 14](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day014) – Swift review, day two [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/14)
 - [Day 15](https://github.com/Rymfire/100-days-of-swiftui/tree/master/Day015) – Swift review, day three [\[Link to course\]](https://www.hackingwithswift.com/100/swiftui/15)
+- [Day 16 to 19](https://github.com/Rymfire/100-days-of-swiftui/tree/master/WeSplit) — WeSplit
+- [Day 20 to 22](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Guess%20The%20Flag) — Guess The Flag
+- [Day 23 & 24](https://github.com/Rymfire/100-days-of-swiftui/tree/main/ViewsAndModifiers) — Views And Modifiers
 
 ## Projects
 
