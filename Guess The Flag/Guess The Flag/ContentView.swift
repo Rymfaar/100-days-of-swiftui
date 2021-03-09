@@ -7,9 +7,20 @@
 
 import SwiftUI
 
+struct FlagImage: View {
+    var flag: String
+
+    var body: some View {
+        Image(flag)
+            .renderingMode(.original)
+            .clipShape(Capsule())
+            .overlay(Capsule().stroke(Color.white, lineWidth: 2))
+    }
+}
+
 struct ContentView: View {
     @Environment(\.colorScheme) var phoneTheme
-    
+
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
 
@@ -41,10 +52,7 @@ struct ContentView: View {
                     Button(action: {
                         self.checkAnswer(flag: flag)
                     }) {
-                        Image(self.countries[flag])
-                            .renderingMode(.original)
-                            .clipShape(Capsule())
-                            .overlay(Capsule().stroke(Color.white, lineWidth: 2))
+                        FlagImage(flag: self.countries[flag])
                     }.alert(isPresented: $showingScore, content: {
                         Alert(title: Text(self.scoreAlertTitle), message: Text("Your score is \(score)"), dismissButton: .default(Text("Continue")) {
                             self.askNewFlag()
