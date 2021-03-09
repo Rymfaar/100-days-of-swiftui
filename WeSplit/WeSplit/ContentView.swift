@@ -7,6 +7,22 @@
 
 import SwiftUI
 
+struct Tip: ViewModifier {
+    var tipLeaved: Int
+    @Environment(\.colorScheme) private var phoneTheme
+    
+    func body(content: Content) -> some View {
+        content
+            .foregroundColor(tipLeaved == 0 ? .red : self.phoneTheme == .dark ? .white : .black)
+    }
+}
+
+extension View {
+    func tip(amount tipLeaved: Int) -> some View {
+        self.modifier(Tip(tipLeaved: tipLeaved))
+    }
+}
+
 struct ContentView: View {
     @State private var amount = ""
     @State private var amountOfPeople = ""
@@ -53,6 +69,7 @@ struct ContentView: View {
 
                 Section(header: Text("Total amount")) {
                     Text("\(totalBill, specifier: "%.2f")€")
+                        .tip(amount: self.tipPourcentages[tipIndex])
                 }
                 
                 Section(header: Text("Total amount per person")) {
