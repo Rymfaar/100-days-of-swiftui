@@ -20,6 +20,20 @@ struct CustomText: View {
     }
 }
 
+struct BlueTitle: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.title)
+            .foregroundColor(.blue)
+    }
+}
+
+extension View {
+    func blueTitled() -> some View {
+        self.modifier(BlueTitle())
+    }
+}
+
 struct Watermark: ViewModifier {
     var text: String
     
@@ -63,6 +77,8 @@ struct ContentView: View {
             Color.gray
                 .frame(width: 200, height: 200)
                 .watermarked(with: "Rymfire")
+            Text("Fuck coronavirus")
+                .blueTitled()
         }.blur(radius: 1)
     }
 }
