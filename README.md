@@ -12,6 +12,8 @@ Each day is around 1 hour long.
 
 I'm using a MacBook under macOS BigSur and Xcode v12.3.
 
+EDIT: I'm now using macOS Monterey and Xcode 13.
+
 > It should work on Catalina too.
 
 ## Days
@@ -42,3 +44,5 @@ I'm using a MacBook under macOS BigSur and Xcode v12.3.
 - [Guess The Flag](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Guess%20The%20Flag)
 - [Views And Modifiers](https://github.com/Rymfire/100-days-of-swiftui/tree/main/ViewsAndModifiers)
 - [Shifumi Theory](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Shifumi%20Theory)
+- [BetterRest](https://github.com/Rymfire/100-days-of-swiftui/tree/main/BetterRest)
+- [WordScramble](https://github.com/Rymfire/100-days-of-swiftui/tree/main/WordScramble)
