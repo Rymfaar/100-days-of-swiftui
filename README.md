@@ -36,7 +36,10 @@ EDIT: I'm now using macOS Monterey and Xcode 13.
 - [Day 16 to 19](https://github.com/Rymfire/100-days-of-swiftui/tree/master/WeSplit) — WeSplit
 - [Day 20 to 22](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Guess%20The%20Flag) — Guess The Flag
 - [Day 23 & 24](https://github.com/Rymfire/100-days-of-swiftui/tree/main/ViewsAndModifiers) — Views And Modifiers
-- [Day 25](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Shifumi%20Theory) — Consolidation
+- [Day 25](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Shifumi%20Theory) — Shifumi Theory
+- [Day 26 to 28](https://github.com/Rymfire/100-days-of-swiftui/tree/main/BetterRest) – BetterRest
+- [Day 29 to 31](https://github.com/Rymfire/100-days-of-swiftui/tree/main/WordScramble) – WordScramble
+- [Day 32 to 34](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Animations) – Animations
 
 ## Projects
 
