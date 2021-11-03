@@ -46,3 +46,4 @@ EDIT: I'm now using macOS Monterey and Xcode 13.
 - [Shifumi Theory](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Shifumi%20Theory)
 - [BetterRest](https://github.com/Rymfire/100-days-of-swiftui/tree/main/BetterRest)
 - [WordScramble](https://github.com/Rymfire/100-days-of-swiftui/tree/main/WordScramble)
+- [Animations](https://github.com/Rymfire/100-days-of-swiftui/tree/main/Animations)
