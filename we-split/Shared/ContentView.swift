@@ -7,6 +7,20 @@
 
 import SwiftUI
 
+struct Tip: ViewModifier {
+    var tipPourcentage: Int
+
+    func body(content: Content) -> some View {
+        content.foregroundColor(tipPourcentage == 0 ? .red : .black)
+    }
+}
+
+extension View {
+    func tip(pourcent tipPourcentage: Int) -> some View {
+        self.modifier(Tip(tipPourcentage: tipPourcentage))
+    }
+}
+
 struct ContentView: View {
     @State private var amount = 0.0
     @State private var peopleIndex = 0
@@ -26,6 +40,23 @@ struct ContentView: View {
     
     @FocusState private var keyboardFocused: Bool
     
+    var tipSelector: some View {
+        Section(header: Text("Want to leave a tip?")) {
+            Picker("Leave a tip?", selection: $tipPourcentage) {
+                ForEach(tipPourcentages, id: \.self) {
+                    Text($0, format: .percent)
+                }
+            }.pickerStyle(.segmented)
+        }
+    }
+    
+    var splitAmountField: some View {
+        Section {
+            Text(amountWithTip, format: .currency(code: Locale.current.currencyCode ?? "EUR")).tip(pourcent: tipPourcentage)
+            Text(amountPerPerson, format: .currency(code: Locale.current.currencyCode ?? "EUR"))
+        }
+    }
+    
     var body: some View {
         NavigationView {
             Form {
@@ -40,17 +71,8 @@ struct ContentView: View {
                         }
                     }
                 }
-                Section(header: Text("Want to leave a tip?")) {
-                    Picker("Leave a tip?", selection: $tipPourcentage) {
-                        ForEach(tipPourcentages, id: \.self) {
-                            Text($0, format: .percent)
-                        }
-                    }.pickerStyle(.segmented)
-                }
-                Section {
-                    Text(amountPerPerson, format: .currency(code: Locale.current.currencyCode ?? "EUR"))
-                    Text(amountWithTip, format: .currency(code: Locale.current.currencyCode ?? "EUR"))
-                }
+                tipSelector
+                splitAmountField
             }
             .navigationTitle("WeSplit")
             .navigationBarTitleDisplayMode(.inline)
