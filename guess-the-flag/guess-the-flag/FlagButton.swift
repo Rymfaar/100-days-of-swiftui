@@ -22,9 +22,3 @@ struct FlagButton: View {
         }
     }
 }
-
-struct FlagButton_Previews: PreviewProvider {
-    static var previews: some View {
-        FlagButton()
-    }
-}
