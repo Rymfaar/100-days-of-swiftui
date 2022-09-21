@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02241F1E28BF949500624079 /* ShifumiMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02241F1D28BF949500624079 /* ShifumiMove.swift */; };
 		02B47DEA28B6517600891116 /* shifumiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B47DE928B6517600891116 /* shifumiApp.swift */; };
 		02B47DEC28B6517600891116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B47DEB28B6517600891116 /* ContentView.swift */; };
 		02B47DEE28B6517900891116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B47DED28B6517900891116 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02241F1D28BF949500624079 /* ShifumiMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifumiMove.swift; sourceTree = "<group>"; };
 		02B47DE628B6517600891116 /* shifumi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shifumi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B47DE928B6517600891116 /* shifumiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shifumiApp.swift; sourceTree = "<group>"; };
 		02B47DEB28B6517600891116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				02B47DEB28B6517600891116 /* ContentView.swift */,
 				02B47DED28B6517900891116 /* Assets.xcassets */,
 				02B47DEF28B6517900891116 /* Preview Content */,
+				02241F1D28BF949500624079 /* ShifumiMove.swift */,
 			);
 			path = shifumi;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02241F1E28BF949500624079 /* ShifumiMove.swift in Sources */,
 				02B47DEC28B6517600891116 /* ContentView.swift in Sources */,
 				02B47DEA28B6517600891116 /* shifumiApp.swift in Sources */,
 			);
